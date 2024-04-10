@@ -26,7 +26,7 @@ curl localhost:5000/init --request GET --data '{"collection": "testns.testorg"}'
 curl localhost:5000/init --request GET --data '{"scm_org": "ansible", "scm_project": "devops", "project": "ansible-project"}' --header "Content-Type: application/json" --output ansible-devops-project.tar
 ```
 
-Untar to get collection contents:
+Untar to get scaffolded contents:
 
 ```bash
 tar -xvf </path/to/tar>
