@@ -14,7 +14,7 @@ Start the container:
 podman run --name=ansible-creator-svc -d -p 5000:5000 ghcr.io/nilashishc/ansible-creator-service:latest
 ```
 
-### Scaffolding a collection
+### Scaffolding an Ansible collection
 
 ```bash
 curl localhost:5000/init --request GET --data '{"collection": "testns.testorg"}' --header "Content-Type: application/json" --output testns-testorg.tar
