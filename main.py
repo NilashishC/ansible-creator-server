@@ -1,4 +1,4 @@
-import os, q
+import os
 import tempfile
 import tarfile
 import logging
@@ -10,7 +10,7 @@ from ansible_creator.utils import TermFeatures
 from ansible_creator.subcommands.init import Init
 
 
-from flask import Flask, send_from_directory, request
+from flask import Flask, send_from_directory
 from flask_restful import Api, Resource, reqparse
 
 
@@ -71,9 +71,7 @@ class CreatorInit(Resource):
             if req_project == "collection":
                 req_workdir = req_args["collection"]
             else:
-                req_workdir = (
-                    f"{req_args['scm_org']}-{req_args['scm_project']}"
-                )
+                req_workdir = f"{req_args['scm_org']}-{req_args['scm_project']}"
 
             # build init path where the requested content would be scaffolded
             init_path = req_tmp_dir + "/" + req_workdir
@@ -108,7 +106,9 @@ api.add_resource(CreatorInit, "/init")
 if __name__ == "__main__":
     app.logger.setLevel(logging.DEBUG)
 
-    svc_log_file = f"ansible-creator-svc-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')}.log"
+    svc_log_file = (
+        f"ansible-creator-svc-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')}.log"
+    )
 
     app.logger.debug(
         f"ansible-creator service is starting, logs available in {svc_log_file}"

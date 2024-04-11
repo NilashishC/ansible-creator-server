@@ -15,7 +15,7 @@ curl localhost:5000/init --request GET --data '{"collection": "testns.testorg"}'
 ### Scaffolding an Ansible playbook project
 
 ```bash
-curl localhost:5000/init --request GET --data '{"scm_org": "ansible", "scm_project": "devops", "project": "ansible-project"}' --header "Content-Type: application/json" --output ansible-devops-project.tar
+curl localhost:5000/init --request GET --data '{"scm_org": "ansible", "scm_project": "devops", "project": "ansible-project"}' --output ansible-devops-project.tar
 ```
 
 Untar to get scaffolded contents:
