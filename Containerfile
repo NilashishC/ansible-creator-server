@@ -11,12 +11,10 @@ python3-devel \
 python3-pip \
     && microdnf clean all
 
-COPY ./requirements.txt /tmp/requirements.txt
-RUN python3 -m pip install -r /tmp/requirements.txt
-
 EXPOSE 5000
 
 WORKDIR /app
-COPY ./main.py /app/main.py
+COPY . /app
+RUN python3 -m pip install -r requirements.txt
 
-CMD ["python", "main.py"]
+CMD ["flask", "--app=app", "run", "--debug", "--host=0.0.0.0"]
