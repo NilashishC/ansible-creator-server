@@ -1,26 +1,18 @@
 import os
-import tempfile
 import tarfile
-import logging
-from datetime import datetime, timezone
+import tempfile
 
 from ansible_creator.config import Config
 from ansible_creator.output import Output
-from ansible_creator.utils import TermFeatures
 from ansible_creator.subcommands.init import Init
-
-
-from flask import Flask, send_from_directory
-from flask_restful import Api, Resource, reqparse
-
+from ansible_creator.utils import TermFeatures
+from flask import send_from_directory
+from flask_restful import Resource, reqparse
 
 try:
     from ._version import version as __version__
 except ImportError:
     __version__ = "source"
-
-app = Flask(__name__)
-api = Api(app)
 
 term_features = TermFeatures(
     color=False,
@@ -99,22 +91,3 @@ class CreatorInit(Resource):
                 path=f"{req_workdir}.tar",
                 as_attachment=True,
             )
-
-
-api.add_resource(CreatorInit, "/init")
-
-if __name__ == "__main__":
-    app.logger.setLevel(logging.DEBUG)
-
-    svc_log_file = (
-        f"ansible-creator-svc-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')}.log"
-    )
-
-    app.logger.debug(
-        f"ansible-creator service is starting, logs available in {svc_log_file}"
-    )
-
-    handler = logging.FileHandler(svc_log_file)
-    app.logger.addHandler(handler)
-
-    app.run(host="0.0.0.0", debug=True)

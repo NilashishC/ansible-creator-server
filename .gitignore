@@ -1,5 +1,4 @@
-# Version created and populated by setuptools_scm
-/src/ansible_creator/_version.py
+.log
 
 dist/
 
@@ -20,3 +19,5 @@ __pycache__/
 _readthedocs
 .coverage
 coverage.xml
+
+*.log
