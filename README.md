@@ -2,14 +2,6 @@
 
 ## Usage
 
-Pull the container image for this service:
-
-```bash
-podman pull ghcr.io/nilashishc/ansible-creator-service:latest
-```
-
-Start the container:
-
 ```bash
 podman run --name=ansible-creator-svc -d -p 5000:5000 ghcr.io/nilashishc/ansible-creator-service:latest
 ```
