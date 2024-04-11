@@ -9,7 +9,7 @@ podman run --name=ansible-creator-svc -d -p 5000:5000 ghcr.io/nilashishc/ansible
 ### Scaffolding an Ansible collection
 
 ```bash
-curl 'localhost:5000/init?collection=ansible.networking' --request GET --output testns-testorg.tar
+curl 'localhost:5000/init?collection=testns.testorg' --request GET --output testns-testorg.tar
 ```
 
 ### Scaffolding an Ansible playbook project
