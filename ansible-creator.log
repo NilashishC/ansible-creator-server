@@ -1,0 +1,393 @@
+2024-04-11 21:17:18,335 WARNING 'ansible_creator.config.__post_init__' The parameters 'scm-org' and 'scm-project' have no effect when project is not set to ansible-project.
+2024-04-11 21:17:18,335 DEBUG 'ansible_creator.init.run' final collection path set to /tmp/tmplyiq_h5n/ansible
+2024-04-11 21:17:18,335 DEBUG 'ansible_creator.init.run' creating new directory at /tmp/tmplyiq_h5n/ansible
+2024-04-11 21:17:18,335 DEBUG 'ansible_creator.init.run' started copying collection skeleton to destination
+2024-04-11 21:17:18,335 DEBUG 'ansible_creator.utils.copy_container' starting recursive copy with source container 'new_collection'
+2024-04-11 21:17:18,336 DEBUG 'ansible_creator.utils.copy_container' allow_overwrite set to None
+2024-04-11 21:17:18,337 DEBUG 'ansible_creator.utils._recursive_copy' current root set to MultiplexedPath('/home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection')
+2024-04-11 21:17:18,337 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.github
+2024-04-11 21:17:18,337 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.github/workflows
+2024-04-11 21:17:18,337 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/.github/workflows/release.yml
+2024-04-11 21:17:18,339 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/.github/workflows/tests.yml
+2024-04-11 21:17:18,340 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/.isort.cfg
+2024-04-11 21:17:18,341 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/.prettierignore
+2024-04-11 21:17:18,342 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.vscode
+2024-04-11 21:17:18,342 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/.vscode/extensions.json
+2024-04-11 21:17:18,343 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/CHANGELOG.rst
+2024-04-11 21:17:18,343 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/LICENSE
+2024-04-11 21:17:18,347 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/changelogs
+2024-04-11 21:17:18,348 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/changelogs/config.yaml
+2024-04-11 21:17:18,349 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/docs
+2024-04-11 21:17:18,349 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/docs/.keep
+2024-04-11 21:17:18,350 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/docs/docsite
+2024-04-11 21:17:18,350 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/docs/docsite/links.yml
+2024-04-11 21:17:18,352 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/meta
+2024-04-11 21:17:18,353 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/meta/runtime.yml
+2024-04-11 21:17:18,354 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins
+2024-04-11 21:17:18,355 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/action
+2024-04-11 21:17:18,355 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/plugins/action/__init__.py
+2024-04-11 21:17:18,356 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/cache
+2024-04-11 21:17:18,356 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/plugins/cache/__init__.py
+2024-04-11 21:17:18,356 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/filter
+2024-04-11 21:17:18,356 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/plugins/filter/__init__.py
+2024-04-11 21:17:18,357 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/plugins/filter/hello_world.py
+2024-04-11 21:17:18,358 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/inventory
+2024-04-11 21:17:18,358 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/plugins/inventory/__init__.py
+2024-04-11 21:17:18,359 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/module_utils
+2024-04-11 21:17:18,359 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/plugins/module_utils/__init__.py
+2024-04-11 21:17:18,360 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/modules
+2024-04-11 21:17:18,360 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/plugins/modules/__init__.py
+2024-04-11 21:17:18,361 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/plugin_utils
+2024-04-11 21:17:18,362 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/plugins/plugin_utils/__init__.py
+2024-04-11 21:17:18,363 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/sub_plugins
+2024-04-11 21:17:18,363 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/plugins/sub_plugins/__init__.py
+2024-04-11 21:17:18,363 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/test
+2024-04-11 21:17:18,363 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/plugins/test/__init__.py
+2024-04-11 21:17:18,364 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests
+2024-04-11 21:17:18,364 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/tests/.gitignore
+2024-04-11 21:17:18,365 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests/unit
+2024-04-11 21:17:18,365 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/tests/unit/.keep
+2024-04-11 21:17:18,365 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests/integration
+2024-04-11 21:17:18,365 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/tests/integration/__init__.py
+2024-04-11 21:17:18,366 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests/integration/targets
+2024-04-11 21:17:18,366 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests/integration/targets/hello_world
+2024-04-11 21:17:18,366 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests/integration/targets/hello_world/tasks
+2024-04-11 21:17:18,366 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/tests/integration/targets/hello_world/tasks/main.yml
+2024-04-11 21:17:18,367 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/tests/integration/test_integration.py
+2024-04-11 21:17:18,368 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions
+2024-04-11 21:17:18,368 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/eda
+2024-04-11 21:17:18,368 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/eda/rulebooks
+2024-04-11 21:17:18,368 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/extensions/eda/rulebooks/rulebook.yml
+2024-04-11 21:17:18,369 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/molecule
+2024-04-11 21:17:18,369 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/molecule/integration_hello_world
+2024-04-11 21:17:18,370 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/extensions/molecule/integration_hello_world/molecule.yml
+2024-04-11 21:17:18,370 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/molecule/utils
+2024-04-11 21:17:18,371 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/molecule/utils/playbooks
+2024-04-11 21:17:18,371 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/extensions/molecule/utils/playbooks/noop.yml
+2024-04-11 21:17:18,372 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/extensions/molecule/utils/playbooks/converge.yml
+2024-04-11 21:17:18,373 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/molecule/utils/vars
+2024-04-11 21:17:18,373 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/extensions/molecule/utils/vars/vars.yml
+2024-04-11 21:17:18,374 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/CODE_OF_CONDUCT.md
+2024-04-11 21:17:18,375 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/CONTRIBUTING
+2024-04-11 21:17:18,375 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/MAINTAINERS
+2024-04-11 21:17:18,376 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/pyproject.toml
+2024-04-11 21:17:18,377 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/galaxy.yml
+2024-04-11 21:17:18,378 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/tox-ansible.ini
+2024-04-11 21:17:18,379 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.devcontainer
+2024-04-11 21:17:18,379 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/.devcontainer/devcontainer.json
+2024-04-11 21:17:18,379 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.devcontainer/docker
+2024-04-11 21:17:18,380 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/.devcontainer/docker/devcontainer.json
+2024-04-11 21:17:18,380 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.devcontainer/podman
+2024-04-11 21:17:18,380 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/.devcontainer/podman/devcontainer.json
+2024-04-11 21:17:18,381 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles
+2024-04-11 21:17:18,381 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run
+2024-04-11 21:17:18,381 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/roles/run/README.md
+2024-04-11 21:17:18,383 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/defaults
+2024-04-11 21:17:18,383 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/roles/run/defaults/main.yml
+2024-04-11 21:17:18,384 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/files
+2024-04-11 21:17:18,384 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/roles/run/files/.keep
+2024-04-11 21:17:18,385 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/handlers
+2024-04-11 21:17:18,385 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/roles/run/handlers/main.yml
+2024-04-11 21:17:18,386 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/meta
+2024-04-11 21:17:18,386 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/roles/run/meta/main.yml
+2024-04-11 21:17:18,388 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/tasks
+2024-04-11 21:17:18,388 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/roles/run/tasks/main.yml
+2024-04-11 21:17:18,389 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/templates
+2024-04-11 21:17:18,390 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/roles/run/templates/.keep
+2024-04-11 21:17:18,391 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/tests
+2024-04-11 21:17:18,391 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/roles/run/tests/inventory
+2024-04-11 21:17:18,392 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/vars
+2024-04-11 21:17:18,392 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/roles/run/vars/main.yml
+2024-04-11 21:17:18,393 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/README.md
+2024-04-11 21:17:18,396 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmplyiq_h5n/ansible/.pre-commit-config.yaml
+2024-04-11 21:17:18,397 INFO 'ansible_creator.init.run' collection ansible.ansible created at /tmp/tmplyiq_h5n/ansible
+2024-04-11 21:18:02,303 DEBUG 'ansible_creator.init.run' final collection path set to /tmp/tmpeg3_fvbe/ansible.networking
+2024-04-11 21:18:02,304 DEBUG 'ansible_creator.init.run' creating new directory at /tmp/tmpeg3_fvbe/ansible.networking
+2024-04-11 21:18:02,304 DEBUG 'ansible_creator.init.run' started copying collection skeleton to destination
+2024-04-11 21:18:02,304 DEBUG 'ansible_creator.utils.copy_container' starting recursive copy with source container 'new_collection'
+2024-04-11 21:18:02,304 DEBUG 'ansible_creator.utils.copy_container' allow_overwrite set to None
+2024-04-11 21:18:02,304 DEBUG 'ansible_creator.utils._recursive_copy' current root set to MultiplexedPath('/home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection')
+2024-04-11 21:18:02,304 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.github
+2024-04-11 21:18:02,305 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.github/workflows
+2024-04-11 21:18:02,305 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/.github/workflows/release.yml
+2024-04-11 21:18:02,306 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/.github/workflows/tests.yml
+2024-04-11 21:18:02,307 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/.isort.cfg
+2024-04-11 21:18:02,307 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/.prettierignore
+2024-04-11 21:18:02,308 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.vscode
+2024-04-11 21:18:02,308 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/.vscode/extensions.json
+2024-04-11 21:18:02,309 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/CHANGELOG.rst
+2024-04-11 21:18:02,309 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/LICENSE
+2024-04-11 21:18:02,314 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/changelogs
+2024-04-11 21:18:02,314 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/changelogs/config.yaml
+2024-04-11 21:18:02,315 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/docs
+2024-04-11 21:18:02,316 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/docs/.keep
+2024-04-11 21:18:02,316 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/docs/docsite
+2024-04-11 21:18:02,316 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/docs/docsite/links.yml
+2024-04-11 21:18:02,318 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/meta
+2024-04-11 21:18:02,318 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/meta/runtime.yml
+2024-04-11 21:18:02,319 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins
+2024-04-11 21:18:02,319 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/action
+2024-04-11 21:18:02,319 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/plugins/action/__init__.py
+2024-04-11 21:18:02,320 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/cache
+2024-04-11 21:18:02,320 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/plugins/cache/__init__.py
+2024-04-11 21:18:02,321 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/filter
+2024-04-11 21:18:02,321 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/plugins/filter/__init__.py
+2024-04-11 21:18:02,322 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/plugins/filter/hello_world.py
+2024-04-11 21:18:02,323 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/inventory
+2024-04-11 21:18:02,323 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/plugins/inventory/__init__.py
+2024-04-11 21:18:02,323 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/module_utils
+2024-04-11 21:18:02,323 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/plugins/module_utils/__init__.py
+2024-04-11 21:18:02,324 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/modules
+2024-04-11 21:18:02,324 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/plugins/modules/__init__.py
+2024-04-11 21:18:02,325 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/plugin_utils
+2024-04-11 21:18:02,325 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/plugins/plugin_utils/__init__.py
+2024-04-11 21:18:02,325 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/sub_plugins
+2024-04-11 21:18:02,325 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/plugins/sub_plugins/__init__.py
+2024-04-11 21:18:02,326 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/plugins/test
+2024-04-11 21:18:02,326 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/plugins/test/__init__.py
+2024-04-11 21:18:02,326 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests
+2024-04-11 21:18:02,327 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/tests/.gitignore
+2024-04-11 21:18:02,327 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests/unit
+2024-04-11 21:18:02,327 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/tests/unit/.keep
+2024-04-11 21:18:02,328 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests/integration
+2024-04-11 21:18:02,328 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/tests/integration/__init__.py
+2024-04-11 21:18:02,329 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests/integration/targets
+2024-04-11 21:18:02,329 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests/integration/targets/hello_world
+2024-04-11 21:18:02,329 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/tests/integration/targets/hello_world/tasks
+2024-04-11 21:18:02,329 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/tests/integration/targets/hello_world/tasks/main.yml
+2024-04-11 21:18:02,330 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/tests/integration/test_integration.py
+2024-04-11 21:18:02,331 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions
+2024-04-11 21:18:02,331 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/eda
+2024-04-11 21:18:02,331 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/eda/rulebooks
+2024-04-11 21:18:02,331 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/extensions/eda/rulebooks/rulebook.yml
+2024-04-11 21:18:02,332 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/molecule
+2024-04-11 21:18:02,332 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/molecule/integration_hello_world
+2024-04-11 21:18:02,332 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/extensions/molecule/integration_hello_world/molecule.yml
+2024-04-11 21:18:02,333 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/molecule/utils
+2024-04-11 21:18:02,333 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/molecule/utils/playbooks
+2024-04-11 21:18:02,333 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/extensions/molecule/utils/playbooks/noop.yml
+2024-04-11 21:18:02,333 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/extensions/molecule/utils/playbooks/converge.yml
+2024-04-11 21:18:02,334 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/extensions/molecule/utils/vars
+2024-04-11 21:18:02,334 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/extensions/molecule/utils/vars/vars.yml
+2024-04-11 21:18:02,335 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/CODE_OF_CONDUCT.md
+2024-04-11 21:18:02,335 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/CONTRIBUTING
+2024-04-11 21:18:02,336 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/MAINTAINERS
+2024-04-11 21:18:02,337 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/pyproject.toml
+2024-04-11 21:18:02,338 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/galaxy.yml
+2024-04-11 21:18:02,339 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/tox-ansible.ini
+2024-04-11 21:18:02,340 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.devcontainer
+2024-04-11 21:18:02,340 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/.devcontainer/devcontainer.json
+2024-04-11 21:18:02,341 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.devcontainer/docker
+2024-04-11 21:18:02,341 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/.devcontainer/docker/devcontainer.json
+2024-04-11 21:18:02,342 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/.devcontainer/podman
+2024-04-11 21:18:02,342 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/.devcontainer/podman/devcontainer.json
+2024-04-11 21:18:02,342 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles
+2024-04-11 21:18:02,343 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run
+2024-04-11 21:18:02,343 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/roles/run/README.md
+2024-04-11 21:18:02,345 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/defaults
+2024-04-11 21:18:02,345 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/roles/run/defaults/main.yml
+2024-04-11 21:18:02,346 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/files
+2024-04-11 21:18:02,346 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/roles/run/files/.keep
+2024-04-11 21:18:02,346 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/handlers
+2024-04-11 21:18:02,347 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/roles/run/handlers/main.yml
+2024-04-11 21:18:02,347 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/meta
+2024-04-11 21:18:02,348 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/roles/run/meta/main.yml
+2024-04-11 21:18:02,349 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/tasks
+2024-04-11 21:18:02,349 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/roles/run/tasks/main.yml
+2024-04-11 21:18:02,350 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/templates
+2024-04-11 21:18:02,350 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/roles/run/templates/.keep
+2024-04-11 21:18:02,350 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/tests
+2024-04-11 21:18:02,350 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/roles/run/tests/inventory
+2024-04-11 21:18:02,351 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/new_collection/roles/run/vars
+2024-04-11 21:18:02,351 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/roles/run/vars/main.yml
+2024-04-11 21:18:02,352 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/README.md
+2024-04-11 21:18:02,355 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpeg3_fvbe/ansible.networking/.pre-commit-config.yaml
+2024-04-11 21:18:02,356 INFO 'ansible_creator.init.run' collection ansible.networking created at /tmp/tmpeg3_fvbe/ansible.networking
+2024-04-11 21:18:43,654 DEBUG 'ansible_creator.init.run' final collection path set to /tmp/tmpi77rqrhn/ansible-devops
+2024-04-11 21:18:43,654 DEBUG 'ansible_creator.init.run' creating new directory at /tmp/tmpi77rqrhn/ansible-devops
+2024-04-11 21:18:43,655 DEBUG 'ansible_creator.init.run' started copying ansible-project skeleton to destination
+2024-04-11 21:18:43,655 DEBUG 'ansible_creator.utils.copy_container' starting recursive copy with source container 'ansible_project'
+2024-04-11 21:18:43,655 DEBUG 'ansible_creator.utils.copy_container' allow_overwrite set to None
+2024-04-11 21:18:43,655 DEBUG 'ansible_creator.utils._recursive_copy' current root set to MultiplexedPath('/home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project')
+2024-04-11 21:18:43,655 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer
+2024-04-11 21:18:43,656 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/.devcontainer/devcontainer.json
+2024-04-11 21:18:43,656 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer/docker
+2024-04-11 21:18:43,656 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/.devcontainer/docker/devcontainer.json
+2024-04-11 21:18:43,657 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer/podman
+2024-04-11 21:18:43,657 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/.devcontainer/podman/devcontainer.json
+2024-04-11 21:18:43,658 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.github
+2024-04-11 21:18:43,658 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/.github/ansible-code-bot.yml
+2024-04-11 21:18:43,658 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.github/workflows
+2024-04-11 21:18:43,659 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/.github/workflows/tests.yml
+2024-04-11 21:18:43,659 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.vscode
+2024-04-11 21:18:43,659 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/.vscode/extensions.json
+2024-04-11 21:18:43,660 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/README.md
+2024-04-11 21:18:43,661 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/ansible-navigator.yml
+2024-04-11 21:18:43,662 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/ansible.cfg
+2024-04-11 21:18:43,662 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections
+2024-04-11 21:18:43,662 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections
+2024-04-11 21:18:43,663 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org
+2024-04-11 21:18:43,663 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo
+2024-04-11 21:18:43,663 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/collections/ansible_collections/ansible/devops/README.md
+2024-04-11 21:18:43,665 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles
+2024-04-11 21:18:43,665 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles/run
+2024-04-11 21:18:43,666 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/collections/ansible_collections/ansible/devops/roles/run/README.md
+2024-04-11 21:18:43,668 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles/run/tasks
+2024-04-11 21:18:43,668 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/collections/ansible_collections/ansible/devops/roles/run/tasks/main.yml
+2024-04-11 21:18:43,669 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/collections/requirements.yml
+2024-04-11 21:18:43,670 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory
+2024-04-11 21:18:43,670 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory/group_vars
+2024-04-11 21:18:43,670 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/inventory/group_vars/all.yml
+2024-04-11 21:18:43,671 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/inventory/group_vars/web_servers.yml
+2024-04-11 21:18:43,671 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory/host_vars
+2024-04-11 21:18:43,671 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/inventory/host_vars/server1.yml
+2024-04-11 21:18:43,672 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/inventory/host_vars/server2.yml
+2024-04-11 21:18:43,672 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/inventory/host_vars/server3.yml
+2024-04-11 21:18:43,673 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/inventory/host_vars/switch1.yml
+2024-04-11 21:18:43,673 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/inventory/host_vars/switch2.yml
+2024-04-11 21:18:43,674 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/inventory/hosts.yml
+2024-04-11 21:18:43,675 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/linux_playbook.yml
+2024-04-11 21:18:43,676 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/network_playbook.yml
+2024-04-11 21:18:43,678 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpi77rqrhn/ansible-devops/site.yml
+2024-04-11 21:18:43,679 INFO 'ansible_creator.init.run' ansible project created at /tmp/tmpi77rqrhn/ansible-devops
+2024-04-11 21:22:45,071 DEBUG 'ansible_creator.init.run' final collection path set to /tmp/tmpkijx6b7_/ansible-devops
+2024-04-11 21:22:45,071 DEBUG 'ansible_creator.init.run' creating new directory at /tmp/tmpkijx6b7_/ansible-devops
+2024-04-11 21:22:45,071 DEBUG 'ansible_creator.init.run' started copying ansible-project skeleton to destination
+2024-04-11 21:22:45,071 DEBUG 'ansible_creator.utils.copy_container' starting recursive copy with source container 'ansible_project'
+2024-04-11 21:22:45,071 DEBUG 'ansible_creator.utils.copy_container' allow_overwrite set to None
+2024-04-11 21:22:45,073 DEBUG 'ansible_creator.utils._recursive_copy' current root set to MultiplexedPath('/home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project')
+2024-04-11 21:22:45,073 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer
+2024-04-11 21:22:45,073 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/.devcontainer/devcontainer.json
+2024-04-11 21:22:45,075 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer/docker
+2024-04-11 21:22:45,075 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/.devcontainer/docker/devcontainer.json
+2024-04-11 21:22:45,076 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer/podman
+2024-04-11 21:22:45,076 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/.devcontainer/podman/devcontainer.json
+2024-04-11 21:22:45,077 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.github
+2024-04-11 21:22:45,077 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/.github/ansible-code-bot.yml
+2024-04-11 21:22:45,078 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.github/workflows
+2024-04-11 21:22:45,078 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/.github/workflows/tests.yml
+2024-04-11 21:22:45,079 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.vscode
+2024-04-11 21:22:45,079 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/.vscode/extensions.json
+2024-04-11 21:22:45,080 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/README.md
+2024-04-11 21:22:45,082 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/ansible-navigator.yml
+2024-04-11 21:22:45,083 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/ansible.cfg
+2024-04-11 21:22:45,083 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections
+2024-04-11 21:22:45,084 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections
+2024-04-11 21:22:45,084 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org
+2024-04-11 21:22:45,084 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo
+2024-04-11 21:22:45,084 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/collections/ansible_collections/ansible/devops/README.md
+2024-04-11 21:22:45,087 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles
+2024-04-11 21:22:45,087 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles/run
+2024-04-11 21:22:45,087 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/collections/ansible_collections/ansible/devops/roles/run/README.md
+2024-04-11 21:22:45,090 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles/run/tasks
+2024-04-11 21:22:45,090 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/collections/ansible_collections/ansible/devops/roles/run/tasks/main.yml
+2024-04-11 21:22:45,091 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/collections/requirements.yml
+2024-04-11 21:22:45,091 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory
+2024-04-11 21:22:45,092 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory/group_vars
+2024-04-11 21:22:45,092 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/inventory/group_vars/all.yml
+2024-04-11 21:22:45,092 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/inventory/group_vars/web_servers.yml
+2024-04-11 21:22:45,093 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory/host_vars
+2024-04-11 21:22:45,093 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/inventory/host_vars/server1.yml
+2024-04-11 21:22:45,094 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/inventory/host_vars/server2.yml
+2024-04-11 21:22:45,094 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/inventory/host_vars/server3.yml
+2024-04-11 21:22:45,095 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/inventory/host_vars/switch1.yml
+2024-04-11 21:22:45,096 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/inventory/host_vars/switch2.yml
+2024-04-11 21:22:45,096 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/inventory/hosts.yml
+2024-04-11 21:22:45,097 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/linux_playbook.yml
+2024-04-11 21:22:45,097 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/network_playbook.yml
+2024-04-11 21:22:45,098 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpkijx6b7_/ansible-devops/site.yml
+2024-04-11 21:22:45,099 INFO 'ansible_creator.init.run' ansible project created at /tmp/tmpkijx6b7_/ansible-devops
+2024-04-11 21:28:17,417 DEBUG 'ansible_creator.init.run' final collection path set to /tmp/tmp6rhdm5j3/ansible-devops
+2024-04-11 21:28:17,417 DEBUG 'ansible_creator.init.run' creating new directory at /tmp/tmp6rhdm5j3/ansible-devops
+2024-04-11 21:28:17,417 DEBUG 'ansible_creator.init.run' started copying ansible-project skeleton to destination
+2024-04-11 21:28:17,418 DEBUG 'ansible_creator.utils.copy_container' starting recursive copy with source container 'ansible_project'
+2024-04-11 21:28:17,418 DEBUG 'ansible_creator.utils.copy_container' allow_overwrite set to None
+2024-04-11 21:28:17,419 DEBUG 'ansible_creator.utils._recursive_copy' current root set to MultiplexedPath('/home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project')
+2024-04-11 21:28:17,419 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer
+2024-04-11 21:28:17,419 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/.devcontainer/devcontainer.json
+2024-04-11 21:28:17,421 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer/docker
+2024-04-11 21:28:17,421 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/.devcontainer/docker/devcontainer.json
+2024-04-11 21:28:17,422 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer/podman
+2024-04-11 21:28:17,422 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/.devcontainer/podman/devcontainer.json
+2024-04-11 21:28:17,423 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.github
+2024-04-11 21:28:17,423 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/.github/ansible-code-bot.yml
+2024-04-11 21:28:17,423 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.github/workflows
+2024-04-11 21:28:17,423 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/.github/workflows/tests.yml
+2024-04-11 21:28:17,424 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.vscode
+2024-04-11 21:28:17,424 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/.vscode/extensions.json
+2024-04-11 21:28:17,425 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/README.md
+2024-04-11 21:28:17,426 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/ansible-navigator.yml
+2024-04-11 21:28:17,427 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/ansible.cfg
+2024-04-11 21:28:17,427 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections
+2024-04-11 21:28:17,428 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections
+2024-04-11 21:28:17,428 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org
+2024-04-11 21:28:17,428 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo
+2024-04-11 21:28:17,428 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/collections/ansible_collections/ansible/devops/README.md
+2024-04-11 21:28:17,431 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles
+2024-04-11 21:28:17,432 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles/run
+2024-04-11 21:28:17,432 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/collections/ansible_collections/ansible/devops/roles/run/README.md
+2024-04-11 21:28:17,433 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles/run/tasks
+2024-04-11 21:28:17,434 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/collections/ansible_collections/ansible/devops/roles/run/tasks/main.yml
+2024-04-11 21:28:17,434 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/collections/requirements.yml
+2024-04-11 21:28:17,435 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory
+2024-04-11 21:28:17,435 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory/group_vars
+2024-04-11 21:28:17,435 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/inventory/group_vars/all.yml
+2024-04-11 21:28:17,436 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/inventory/group_vars/web_servers.yml
+2024-04-11 21:28:17,436 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory/host_vars
+2024-04-11 21:28:17,436 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/inventory/host_vars/server1.yml
+2024-04-11 21:28:17,437 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/inventory/host_vars/server2.yml
+2024-04-11 21:28:17,437 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/inventory/host_vars/server3.yml
+2024-04-11 21:28:17,438 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/inventory/host_vars/switch1.yml
+2024-04-11 21:28:17,438 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/inventory/host_vars/switch2.yml
+2024-04-11 21:28:17,439 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/inventory/hosts.yml
+2024-04-11 21:28:17,440 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/linux_playbook.yml
+2024-04-11 21:28:17,441 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/network_playbook.yml
+2024-04-11 21:28:17,442 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmp6rhdm5j3/ansible-devops/site.yml
+2024-04-11 21:28:17,443 INFO 'ansible_creator.init.run' ansible project created at /tmp/tmp6rhdm5j3/ansible-devops
+2024-04-11 21:28:23,928 DEBUG 'ansible_creator.init.run' final collection path set to /tmp/tmpzllu0rf7/ansible-devops
+2024-04-11 21:28:23,929 DEBUG 'ansible_creator.init.run' creating new directory at /tmp/tmpzllu0rf7/ansible-devops
+2024-04-11 21:28:23,929 DEBUG 'ansible_creator.init.run' started copying ansible-project skeleton to destination
+2024-04-11 21:28:23,929 DEBUG 'ansible_creator.utils.copy_container' starting recursive copy with source container 'ansible_project'
+2024-04-11 21:28:23,929 DEBUG 'ansible_creator.utils.copy_container' allow_overwrite set to None
+2024-04-11 21:28:23,929 DEBUG 'ansible_creator.utils._recursive_copy' current root set to MultiplexedPath('/home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project')
+2024-04-11 21:28:23,929 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer
+2024-04-11 21:28:23,929 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/.devcontainer/devcontainer.json
+2024-04-11 21:28:23,930 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer/docker
+2024-04-11 21:28:23,930 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/.devcontainer/docker/devcontainer.json
+2024-04-11 21:28:23,931 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.devcontainer/podman
+2024-04-11 21:28:23,931 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/.devcontainer/podman/devcontainer.json
+2024-04-11 21:28:23,932 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.github
+2024-04-11 21:28:23,932 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/.github/ansible-code-bot.yml
+2024-04-11 21:28:23,932 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.github/workflows
+2024-04-11 21:28:23,932 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/.github/workflows/tests.yml
+2024-04-11 21:28:23,933 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/.vscode
+2024-04-11 21:28:23,933 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/.vscode/extensions.json
+2024-04-11 21:28:23,934 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/README.md
+2024-04-11 21:28:23,935 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/ansible-navigator.yml
+2024-04-11 21:28:23,936 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/ansible.cfg
+2024-04-11 21:28:23,937 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections
+2024-04-11 21:28:23,937 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections
+2024-04-11 21:28:23,938 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org
+2024-04-11 21:28:23,938 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo
+2024-04-11 21:28:23,938 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/collections/ansible_collections/ansible/devops/README.md
+2024-04-11 21:28:23,941 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles
+2024-04-11 21:28:23,941 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles/run
+2024-04-11 21:28:23,942 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/collections/ansible_collections/ansible/devops/roles/run/README.md
+2024-04-11 21:28:23,944 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/collections/ansible_collections/project_org/project_repo/roles/run/tasks
+2024-04-11 21:28:23,944 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/collections/ansible_collections/ansible/devops/roles/run/tasks/main.yml
+2024-04-11 21:28:23,945 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/collections/requirements.yml
+2024-04-11 21:28:23,945 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory
+2024-04-11 21:28:23,945 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory/group_vars
+2024-04-11 21:28:23,946 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/inventory/group_vars/all.yml
+2024-04-11 21:28:23,946 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/inventory/group_vars/web_servers.yml
+2024-04-11 21:28:23,947 DEBUG 'ansible_creator.utils._recursive_copy' current root set to /home/nchakrab/ansible-creator/src/ansible_creator/resources/ansible_project/inventory/host_vars
+2024-04-11 21:28:23,947 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/inventory/host_vars/server1.yml
+2024-04-11 21:28:23,948 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/inventory/host_vars/server2.yml
+2024-04-11 21:28:23,949 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/inventory/host_vars/server3.yml
+2024-04-11 21:28:23,949 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/inventory/host_vars/switch1.yml
+2024-04-11 21:28:23,950 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/inventory/host_vars/switch2.yml
+2024-04-11 21:28:23,950 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/inventory/hosts.yml
+2024-04-11 21:28:23,951 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/linux_playbook.yml
+2024-04-11 21:28:23,952 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/network_playbook.yml
+2024-04-11 21:28:23,952 DEBUG 'ansible_creator.utils._recursive_copy' dest file is /tmp/tmpzllu0rf7/ansible-devops/site.yml
+2024-04-11 21:28:23,953 INFO 'ansible_creator.init.run' ansible project created at /tmp/tmpzllu0rf7/ansible-devops

@@ -1,4 +1,4 @@
-import os
+import os, q
 import tempfile
 import tarfile
 import logging
@@ -37,22 +37,12 @@ output = Output(
 )
 
 creator_init_args = reqparse.RequestParser()
+
+creator_init_args.add_argument("collection", type=str, location="args")
+creator_init_args.add_argument("scm_org", type=str, location="args")
+creator_init_args.add_argument("scm_project", type=str, location="args")
 creator_init_args.add_argument(
-    "collection",
-    type=str,
-)
-creator_init_args.add_argument(
-    "scm_org",
-    type=str,
-)
-creator_init_args.add_argument(
-    "scm_project",
-    type=str,
-)
-creator_init_args.add_argument(
-    "project",
-    default="collection",
-    type=str,
+    "project", default="collection", type=str, location="args"
 )
 
 
@@ -81,7 +71,9 @@ class CreatorInit(Resource):
             if req_project == "collection":
                 req_workdir = req_args["collection"]
             else:
-                req_workdir = f"{req_args['scm_org']}-{req_args['scm_project']}"
+                req_workdir = (
+                    f"{req_args['scm_org']}-{req_args['scm_project']}"
+                )
 
             # build init path where the requested content would be scaffolded
             init_path = req_tmp_dir + "/" + req_workdir
@@ -113,21 +105,10 @@ class CreatorInit(Resource):
 
 api.add_resource(CreatorInit, "/init")
 
-
-@app.before_request
-def log_request_info():
-    headers = " ".join([line.strip() for line in str(request.headers).splitlines()])
-    app.logger.debug(
-        f"remote_addr={request.remote_addr}, method={request.method}, headers={headers.strip()}, init_request={request.json}"
-    )
-
-
 if __name__ == "__main__":
     app.logger.setLevel(logging.DEBUG)
 
-    svc_log_file = (
-        f"ansible-creator-svc-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')}.log"
-    )
+    svc_log_file = f"ansible-creator-svc-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')}.log"
 
     app.logger.debug(
         f"ansible-creator service is starting, logs available in {svc_log_file}"
