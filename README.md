@@ -9,13 +9,13 @@ podman run --name=ansible-creator-svc -d -p 5000:5000 ghcr.io/nilashishc/ansible
 ### Scaffolding an Ansible collection
 
 ```bash
-curl localhost:5000/init --request GET --data '{"collection": "testns.testorg"}' --header "Content-Type: application/json" --output testns-testorg.tar
+curl 'localhost:5000/init?collection=ansible.networking' --request GET --output testns-testorg.tar
 ```
 
 ### Scaffolding an Ansible playbook project
 
 ```bash
-curl localhost:5000/init --request GET --data '{"scm_org": "ansible", "scm_project": "devops", "project": "ansible-project"}' --output ansible-devops-project.tar
+curl 'localhost:5000/init?project=ansible-project&scm_org=ansible&scm_project=devops' --request GET --output ansible-devops-project.tar
 ```
 
 Untar to get scaffolded contents:
