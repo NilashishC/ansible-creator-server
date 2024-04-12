@@ -9,6 +9,7 @@ from ansible_creator.utils import TermFeatures
 from flask import send_from_directory
 from flask_restful import Resource, reqparse
 
+
 try:
     from ._version import version as __version__
 except ImportError:
@@ -66,7 +67,7 @@ class CreatorInit(Resource):
                 req_workdir = f"{req_args['scm_org']}-{req_args['scm_project']}"
 
             # build init path where the requested content would be scaffolded
-            init_path = req_tmp_dir + "/" + req_workdir
+            init_path = f"{req_tmp_dir}/{req_workdir}"
 
             req_args.update(
                 {
