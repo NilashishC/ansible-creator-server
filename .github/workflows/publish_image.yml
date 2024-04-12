@@ -1,0 +1,27 @@
+---
+name: Publish Image
+
+concurrency:
+    group: ${{ github.head_ref || github.run_id }}
+    cancel-in-progress: true
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+            registry: ghcr.io
+            username: ${{ github.actor }}
+            password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build the container image for ansible-creator-service and publish it
+        run: |
+          docker build -f $GITHUB_WORKSPACE/Containerfile -t ghcr.io/nilashishc/ansible-creator-service:latest .
+          docker push t ghcr.io/nilashishc/ansible-creator-service:latest
