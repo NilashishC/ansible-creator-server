@@ -23,5 +23,5 @@ jobs:
 
       - name: Build the container image for ansible-creator-service and publish it
         run: |
-          docker build -f $GITHUB_WORKSPACE/Containerfile -t ghcr.io/nilashishc/ansible-creator-service:latest .
+          docker build -f Containerfile -t ghcr.io/nilashishc/ansible-creator-service:latest .
           docker push t ghcr.io/nilashishc/ansible-creator-service:latest
