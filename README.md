@@ -1,4 +1,4 @@
-[![Publish Image](https://github.com/NilashishC/ansible-creator-service/actions/workflows/publish_image.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/NilashishC/ansible-creator-service/actions/workflows/publish_image.yml)
+[![Publish Image](https://github.com/NilashishC/ansible-creator-service/actions/workflows/publish_image.yml/badge.svg?event=release)](https://github.com/NilashishC/ansible-creator-service/actions/workflows/publish_image.yml)
 
 # A RESTful service for ansible-creator
 
