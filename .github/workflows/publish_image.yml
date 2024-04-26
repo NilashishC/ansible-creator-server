@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 env:
-  image: ghcr.io/nilashishc/ansible-creator-service
+  image: ghcr.io/nilashishc/ansible-creator-server
 
 jobs:
   build-test:
