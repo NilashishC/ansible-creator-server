@@ -5,7 +5,7 @@
 ## Usage
 
 ```bash
-podman run --name=ansible-creator-svc -d -p 5000:5000 ghcr.io/nilashishc/ansible-creator-service:latest
+podman run --name=ansible-creator-svc -d -p 5000:5000 ghcr.io/nilashishc/ansible-creator-server:latest
 ```
 
 ### Scaffolding an Ansible collection
