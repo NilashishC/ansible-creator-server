@@ -9,7 +9,6 @@ from ansible_creator.utils import TermFeatures
 from flask import send_from_directory
 from flask_restful import Resource, reqparse
 
-
 try:
     from ._version import version as __version__
 except ImportError:
