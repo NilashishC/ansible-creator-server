@@ -7,7 +7,6 @@ from flask_restful import Api
 
 from creator_api.resources.creator_init import CreatorInit
 
-
 app = Flask(__name__)
 api = Api(app)
 
